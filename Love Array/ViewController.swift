@@ -32,16 +32,20 @@ class ViewController: UIViewController {
         memberLabel.text = strArrayMember[0]
         //memberLabel.text = strArrayMember[0]
         
-        var intIndex = 0
+        var intIndex = 1
         var strShow  = " "
         
         
         for strshowMyMember in strArrayMember{
             
-            strShow = strShow + strshowMyMember + "\n"
+            strShow = strShow + "\(intIndex)." + strshowMyMember + "\n"
             print("strShow ==> \(strShow)")
             
-            memberLabel.text = strShow        }
+            memberLabel.text = strShow
+            
+            intIndex += 1
+        
+        }
         
         
     }   // addButton

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F6650521F286F02009DC17F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2F6650511F286F02009DC17F /* README.md */; };
 		C49C15371F2840C00002091E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49C15361F2840C00002091E /* AppDelegate.swift */; };
 		C49C15391F2840C00002091E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49C15381F2840C00002091E /* ViewController.swift */; };
 		C49C153C1F2840C00002091E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49C153A1F2840C00002091E /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F6650511F286F02009DC17F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C49C15331F2840C00002091E /* Love Array.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Love Array.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C49C15361F2840C00002091E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C49C15381F2840C00002091E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +40,7 @@
 		C49C152A1F2840C00002091E = {
 			isa = PBXGroup;
 			children = (
+				2F6650511F286F02009DC17F /* README.md */,
 				C49C15351F2840C00002091E /* Love Array */,
 				C49C15341F2840C00002091E /* Products */,
 			);
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F6650521F286F02009DC17F /* README.md in Sources */,
 				C49C15391F2840C00002091E /* ViewController.swift in Sources */,
 				C49C15371F2840C00002091E /* AppDelegate.swift in Sources */,
 			);
@@ -301,6 +305,7 @@
 				C49C15471F2840C00002091E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
